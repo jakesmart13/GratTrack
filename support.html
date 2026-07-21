@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Support for Gratify — personal tip tracker." />
+  <title>Gratify Support</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1a1d24;
+      --muted: #5c6570;
+      --accent: #1f479e;
+      --border: #e4e7ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1218;
+        --card: #181c24;
+        --text: #eef1f6;
+        --muted: #9aa3b2;
+        --accent: #6b9aff;
+        --border: #2a3140;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    .wrap {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+    }
+    h1 { margin: 0 0 8px; font-size: 1.6rem; }
+    p { color: var(--muted); margin: 0 0 14px; }
+    a { color: var(--accent); font-weight: 600; }
+    ul { color: var(--muted); padding-left: 1.2rem; }
+    .links { margin-top: 18px; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Gratify Support</h1>
+      <p>
+        Gratify is a personal, on-device tip tracker. For help with the app, bug reports, or privacy questions, email:
+      </p>
+      <p>
+        <a href="mailto:jakensmart13@yahoo.com">jakensmart13@yahoo.com</a>
+      </p>
+      <p>Please include your device model and iOS version when reporting a problem.</p>
+      <ul>
+        <li>No account or password reset — Gratify does not use logins.</li>
+        <li>To clear data: Settings → Delete All Shifts, or uninstall the app.</li>
+        <li>CSV export is for your personal records only; it is not tax advice.</li>
+      </ul>
+      <p class="links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
